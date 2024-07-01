@@ -15,6 +15,8 @@ def func(*args):
 print(func(4, 4, 4))
 
 
+# =============================
+
 @logged
 def sum_func(a, b):
     return a + b
