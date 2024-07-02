@@ -14,7 +14,7 @@ class ComputerStoreApp(DesktopComputer, Laptop):
         self.warehouse: List[str] = []
         self.profits: int = 0
 
-    def build_computer(self, type_computer: str, manyfacturer: str, model: str, processor: str, ram: int):
+    def build_computer(self, type_computer: str, manufacturer: str, model: str, processor: str, ram: int):
         if type_computer not in self.valid_types:
             raise ValueError(f"{type_computer} is not a valid type computer!")
 
