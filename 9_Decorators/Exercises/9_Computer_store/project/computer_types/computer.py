@@ -62,7 +62,6 @@ class Computer(ABC):
     def max_ram(self):
         pass
 
-    @abstractmethod
     def configure_computer(self, processor: str, ram: int):
         if processor not in self.available_processors:
             raise ValueError(f"{processor}is not compatible with desktop "
@@ -84,6 +83,5 @@ class Computer(ABC):
         self.ram = ram
         self.price = processor_price + ram_price
 
-    @abstractmethod
     def __repr__(self):
         return f"{self.manufacturer} {self.model} with {self.processor} and {self.ram}GB RAM"

@@ -8,7 +8,7 @@ class Laptop(Computer):
         return "laptop"
 
     @property
-    def desktop_processors(self):
+    def available_processors(self):
         return {
             "AMD Ryzen 9 5950X": 900,
             "Intel Core i9-11900H": 1050,
@@ -22,9 +22,3 @@ class Laptop(Computer):
     min_RAM = 2
     max_RAM = 64
     available_RAM = [2, 4, 8, 16, 32, 64]
-
-    def __init__(self, manufacturer: str, model: str):
-        super().__init__(manufacturer, model)
-        self.processor: str = None
-        self.ram: int = None
-        self.price: int = 0
