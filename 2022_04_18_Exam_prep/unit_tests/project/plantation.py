@@ -33,6 +33,7 @@ class Plantation:
 
         elif len(self) >= self.size:
             raise ValueError("The plantation is full!")
+
         if worker in self.plants.keys():
             self.plants[worker].append(plant)
             return f"{worker} planted {plant}."
