@@ -28,3 +28,22 @@ additional_food = {"Risotto with Wild Mushrooms": 2,
 print(food_orders_app.add_meals_to_shopping_cart('0899999999', **additional_food))
 print(food_orders_app.finish_order("0899999999"))
 print(food_orders_app)
+
+# ===================================
+# EXPECTED OUTPUT
+# ===================================
+
+"""
+Client 0899999999 registered successfully.
+None
+Starter French toast: 6.50lv/piece
+Starter Hummus and Avocado Sandwich: 7.90lv/piece
+Main Dish Tortilla with Beef and Pork: 12.50lv/piece
+Main Dish Risotto with Wild Mushrooms: 15.00lv/piece
+Dessert Chocolate Cake with Mascarpone: 4.60lv/piece
+Dessert Chocolate and Violets: 5.20lv/piece
+Client 0899999999 successfully ordered Hummus and Avocado Sandwich, Risotto with Wild Mushrooms, Chocolate and Violets for 75.30lv.
+Client 0899999999 successfully ordered Hummus and Avocado Sandwich, Risotto with Wild Mushrooms, Chocolate and Violets, Risotto with Wild Mushrooms, Tortilla with Beef and Pork for 130.30lv.
+Receipt #1 with total amount of 130.30 was successfully paid for 0899999999.
+Food Orders App has 6 meals on the menu and 1 clients.
+"""
