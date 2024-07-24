@@ -7,10 +7,6 @@ from project.meals.starter import Starter
 
 
 class FoodOrdersApp:
-    # VALID_MEALS = {"Starter": Starter,
-    #                "MainDish": MainDish,
-    #                "Dessert": Dessert
-    #                }
     VALID_MEALS = ["Starter", "MainDish", "Dessert"]
 
     def __init__(self):
@@ -35,9 +31,6 @@ class FoodOrdersApp:
 
     def add_meals_to_menu(self, *args: Meal):
         meals = [meal for meal in args if meal.__class__.__name__ in self.VALID_MEALS]
-        # ============================================
-        # print(f"THESE ARE THE MEALS ---> \n {'\n'.join(meal.__class__.__name__ for meal in meals)}")
-        # ============================================
         self.menu.extend(meals)
 
     def show_menu(self) -> str:
