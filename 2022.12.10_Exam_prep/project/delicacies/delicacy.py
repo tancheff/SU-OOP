@@ -30,6 +30,6 @@ class Delicacy(ABC):
         self.__price = value
 
     @abstractmethod
-    def details(self):
+    def details(self) -> str:
         pass
 

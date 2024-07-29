@@ -23,5 +23,5 @@ class Booth(ABC):
         self.__capacity = value
 
     @abstractmethod
-    def reserve(self, number_of_people: int):
+    def reserve(self, number_of_people: int) -> None:
         pass

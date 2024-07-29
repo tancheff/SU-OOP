@@ -6,5 +6,5 @@ class Gingerbread(Delicacy):
         self.portion = 200
         super().__init__(name, self.portion, price)
 
-    def details(self):
+    def details(self) -> str:
         return f"Gingerbread {self.name}: 200g - {self.price:.2f}lv."

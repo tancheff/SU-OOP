@@ -68,3 +68,7 @@ class ToyStoreTest(TestCase):
                          "Remove toy:Iron Man successfully!")
 
         self.assertEqual(self.store.toy_shelf["A"], None)
+
+
+if __name__ == "__main__":
+    main()
