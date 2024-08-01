@@ -62,8 +62,6 @@ class ManagingApp:
         if route_2:
             return f"{start_point}/{end_point} shorter route had already been added to our platform."
 
-
-
         self.routes.append(Route(start_point, end_point, length, route_id))
         return f"{start_point}/{end_point} - {length} km is unlocked and available to use."
 
@@ -95,7 +93,7 @@ class ManagingApp:
 
     def repair_vehicles(self, count: int):
         damaged_vehicles = sorted(filter(lambda v: v.is_damaged is True, self.vehicles),
-                                                     key=lambda v: (v.brand, v.model))
+                                  key=lambda v: (v.brand, v.model))
 
         if count >= len(damaged_vehicles):
             count = len(damaged_vehicles)
@@ -114,5 +112,18 @@ class ManagingApp:
     def users_report(self):
         self.users.sort(key=lambda user: -user.rating)
 
-        return (f"*** E-Drive-Rent ***\n"
-                f"{"\n".join(user.__str__() for user in self.users)}")
+        return "*** E-Drive-Rent ***\n" + '\n'.join(user.__str__() for user in self.users)
+
+        # в JUDGE не минава:
+        # return (f"*** E-Drive-Rent ***\n"
+        #         f"{'\n'.join(user.__str__() for user in self.users)}")
+
+        # в GUDGE мина с 1 грешка:
+        # return (
+        #         f"*** E-Drive-Rent ***\n"
+        #         f"'\n'.join({[user.__str__() for user in self.users]}"
+        # )
+
+        # минава през проблем:
+        # return "*** E-Drive-Rent ***\n" + '\n'.join(user.__str__() for user in self.users)
+
