@@ -27,4 +27,6 @@ print(bank.increase_clients_interest(3.5))
 
 print(bank.get_statistics())
 
-
+"""
+TEST
+"""
