@@ -108,7 +108,7 @@ class Tournament:
             return "No winner in this game."
 
     def get_statistics(self) -> str:
-        self.teams.sort(key=lambda team: team.wins, reverse=True)
+        self.teams.sort(key=lambda team: -team.wins)
 
         result = [
             f"Tournament: {self.name}",
