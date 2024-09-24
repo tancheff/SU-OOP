@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ed903e2-d07b-4f09-ab4f-32f57efaa9a9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/project/booths/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/project/booths/booth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/project/booths/open_booth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/project/booths/private_booth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/project/christmas_pastry_shop_app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/project/delicacies/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/project/delicacies/delicacy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/project/delicacies/gingerbread.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/project/delicacies/stolen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/project/judge_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/unit_tests/project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/unit_tests/project/test.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/unit_tests/project/test/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/unit_tests/project/test/test_toy_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2022.12.10_Exam_prep/unit_tests/project/toy_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/.idea/2023.08.05_Exam_prep.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/project.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/project/bank_app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/project/clients/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/project/clients/adult.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/project/clients/base_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/project/clients/student.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/project/judge_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/project/loans/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/project/loans/base_loan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/project/loans/mortgage_loan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/project/loans/student_loan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/project/unite_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/unit_tests/project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/unit_tests/project/second_hand_car.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/unit_tests/project/test.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/unit_tests/project/test/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.08.05_Exam_prep/unit_tests/project/test/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.12.09_Exam_prep/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.12.09_Exam_prep/.idea/2023.12.09_Exam_prep.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.12.09_Exam_prep/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.12.09_Exam_prep/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.12.09_Exam_prep/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.12.09_Exam_prep/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.12.09_Exam_prep/project/divers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.12.09_Exam_prep/project/divers/base_diver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.12.09_Exam_prep/project/divers/free_diver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.12.09_Exam_prep/project/divers/scuba_diver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.12.09_Exam_prep/project/fish/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.12.09_Exam_prep/project/fish/base_fish.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.12.09_Exam_prep/project/fish/deep_sea_fish.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.12.09_Exam_prep/project/fish/predatory_fish.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.12.09_Exam_prep/project/judge_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2023.12.09_Exam_prep/project/nautical_catch_challenge_app.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2jk0ERRdAXmCH3fh6cD0NHPB47M" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.TEST.executor": "Run",
+    "Python.hash_table.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Workshop" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="Workshop" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.TEST">
+    <configuration name="TEST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Workshop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TEST.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hash_table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Workshop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hash_table.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.TEST" />
+        <item itemvalue="Python.hash_table" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ed903e2-d07b-4f09-ab4f-32f57efaa9a9" name="Changes" comment="" />
+      <created>1721915656811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721915656811</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hash_table.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
