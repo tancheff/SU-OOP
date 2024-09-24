@@ -90,28 +90,23 @@ class NauticalCatchChallengeApp:
 
         return f"Divers recovered: {len(divers_to_recover)}"
 
+    def diver_catch_report(self, diver_name: str):
+        diver: BaseDiver = next(filter(lambda d: d.name == diver_name, self.divers), None)
 
+        result = f"**{diver_name} Catch Report**\n"
 
+        fishes = "\n".join([fish.fish_details() for fish in diver.catch])
 
+        return result + fishes
 
+    def competition_statistics(self):
+        sorted_divers = sorted(self.divers, key=lambda diver: (-diver.competition_points,
+                                                               -diver.catches,
+                                                               diver.name))
 
+        result = "**Nautical Catch Challenge Statistics**\n"
 
+        divers_info = "\n".join([diver.__str__() for diver in sorted_divers])
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        return result + divers_info
 
