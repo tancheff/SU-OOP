@@ -60,25 +60,15 @@ class FlowerShopManager:
         if len(same_type_plants) < plant_quantity:
             return "Not enough plant quantity."
 
-        order_amount = self.perform_sale(same_type_plants, client, plant_quantity)
-        self.income += order_amount
-
-        return f"{plant_quantity}pcs. of {plant_name} plant sold for {order_amount:.2f}"
-
-    def perform_sale(self, same_type_plants: List[BasePlant], client: BaseClient, quantity: int) -> int:
-        order_amount = 0
-
-        for plant in same_type_plants[:quantity]:
-            order_amount += plant.price
-
-        order_amount *= (1-client.discount)
+        order_amount = sum(plant.price for plant in same_type_plants[:plant_quantity]) * (1-client.discount)
 
         client.update_total_orders()
         client.update_discount()
 
-        self.plants = [plant for plant in self.plants if plant not in same_type_plants[:quantity]]
+        self.plants = [plant for plant in self.plants if plant not in same_type_plants[:plant_quantity]]
+        self.income += order_amount
 
-        return order_amount
+        return f"{plant_quantity}pcs. of {plant_name} plant sold for {order_amount:.2f}"
 
     def remove_plant(self, plant_name: str):
         plant: BasePlant = next(filter(lambda p: p.name == plant_name, self.plants), None)
