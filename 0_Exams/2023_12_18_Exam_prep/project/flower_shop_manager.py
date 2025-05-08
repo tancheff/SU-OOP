@@ -9,8 +9,15 @@ from project.plants.leaf_plant import LeafPlant
 
 
 class FlowerShopManager:
-    PLANT_TYPES = {"Flower": Flower, "LeafPlant": LeafPlant}
-    CLIENT_TYPES = {"RegularClient": RegularClient, "BusinessClient": BusinessClient}
+    PLANT_TYPES = {
+        "Flower": Flower,
+        "LeafPlant": LeafPlant
+    }
+
+    CLIENT_TYPES = {
+        "RegularClient": RegularClient,
+        "BusinessClient": BusinessClient
+    }
 
     def __init__(self):
         self.income: float = 0.0
@@ -54,19 +61,21 @@ class FlowerShopManager:
             return "Not enough plant quantity."
 
         order_amount = self.perform_sale(same_type_plants, client, plant_quantity)
-        # self.orders_count += 1
+        self.income += order_amount
 
-        return f"{plant_quantity}pcs. of {plant_name} plant sold for {order_amount}"
+        return f"{plant_quantity}pcs. of {plant_name} plant sold for {order_amount:.2f}"
 
-    def perform_sale(self, plants: List[BasePlant], client: BaseClient, quantity: int) -> int:
+    def perform_sale(self, same_type_plants: List[BasePlant], client: BaseClient, quantity: int) -> int:
         client.update_total_orders()
         client.update_discount()
         order_amount = 0
 
-        for plant in plants[:quantity]:
+        for plant in same_type_plants[:quantity]:
             order_amount += plant.price
 
-        self.plants = plants[quantity:]
+        order_amount *= (1-client.discount)
+
+        self.plants = [plant for plant in self.plants if plant not in same_type_plants[:quantity]]
 
         return order_amount
 

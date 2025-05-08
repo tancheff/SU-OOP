@@ -41,4 +41,4 @@ class BaseClient(ABC):
         return (f"Client: {self.name}, "
                 f"Phone number: {self.phone_number}, "
                 f"Orders count: {self.total_orders}, "
-                f"Discount: {self.discount}%")
+                f"Discount: {int(self.discount*100)}%")
