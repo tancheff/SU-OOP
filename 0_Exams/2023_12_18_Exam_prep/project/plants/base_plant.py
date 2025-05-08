@@ -35,7 +35,7 @@ class BasePlant(ABC):
 
     @water_needed.setter
     def water_needed(self, value: int):
-        if value < 1 or value > 2_000:
+        if value < 1 or value > 2000:
             raise ValueError("Water needed must be between 1 and 2000 ml!")
 
         self.__water_needed = value
