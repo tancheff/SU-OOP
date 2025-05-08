@@ -66,14 +66,15 @@ class FlowerShopManager:
         return f"{plant_quantity}pcs. of {plant_name} plant sold for {order_amount:.2f}"
 
     def perform_sale(self, same_type_plants: List[BasePlant], client: BaseClient, quantity: int) -> int:
-        client.update_total_orders()
-        client.update_discount()
         order_amount = 0
 
         for plant in same_type_plants[:quantity]:
             order_amount += plant.price
 
         order_amount *= (1-client.discount)
+
+        client.update_total_orders()
+        client.update_discount()
 
         self.plants = [plant for plant in self.plants if plant not in same_type_plants[:quantity]]
 
