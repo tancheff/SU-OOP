@@ -81,3 +81,6 @@ class TestGallery(TestCase):
             f'Gallery {self.gallery.gallery_name} is currently closed for public! Check for updates later on.',
             self.gallery.list_exhibitions()
         )
+
+if __name__ == "__main__":
+    main()
