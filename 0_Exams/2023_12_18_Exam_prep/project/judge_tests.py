@@ -1,6 +1,6 @@
-# Create an instance of FlowerShopManager
 from project.flower_shop_manager import FlowerShopManager
 
+# Create an instance of FlowerShopManager
 manager = FlowerShopManager()
 
 # Add plants
@@ -56,3 +56,74 @@ print()
 # Remove clients who have no orders
 print(manager.remove_clients())
 print(manager.remove_clients())
+
+
+"""
+------------- Output -------------
+
+Rose is added to the shop as Flower.
+Rose is added to the shop as Flower.
+Rose is added to the shop as Flower.
+Rose is added to the shop as Flower.
+Tulip is added to the shop as Flower.
+Tulip is added to the shop as Flower.
+Lily is added to the shop as Flower.
+Cactus is added to the shop as LeafPlant.
+Cactus is added to the shop as LeafPlant.
+Fern is added to the shop as LeafPlant.
+Fern is added to the shop as LeafPlant.
+Fern is added to the shop as LeafPlant.
+Snake Plant is added to the shop as LeafPlant.
+Snake Plant is added to the shop as LeafPlant.
+
+Alice Johnson is successfully added as a RegularClient.
+Bob Smith is successfully added as a RegularClient.
+Greenhouse Inc. is successfully added as a BusinessClient.
+CoolGarden Plc. is successfully added as a BusinessClient.
+Peter Johnson is successfully added as a RegularClient.
+
+3pcs. of Rose plant sold for 46.50
+2pcs. of Tulip plant sold for 24.00
+1pcs. of Cactus plant sold for 8.00
+
+~Flower Shop Report~
+Income: 78.50
+Count of orders: 3
+~~Unsold plants: 8~~
+Fern: 3
+Snake Plant: 2
+Cactus: 1
+Lily: 1
+Rose: 1
+~~Clients number: 5~~
+Client: Bob Smith, Phone number: 0987654321, Orders count: 1, Discount: 5%
+Client: Alice Johnson, Phone number: 1234567890, Orders count: 1, Discount: 5%
+Client: Greenhouse Inc., Phone number: 5647382910, Orders count: 1, Discount: 0%
+Client: Peter Johnson, Phone number: 382910, Orders count: 0, Discount: 0%
+Client: CoolGarden Plc., Phone number: 9647382910, Orders count: 0, Discount: 0%
+
+Not enough plant quantity.
+1pcs. of Fern plant sold for 6.17
+2pcs. of Snake Plant plant sold for 24.00
+
+No such plant name.
+Removed Leaf Plant: Cactus, Price: 8.00, Watering: 50ml, Size: M
+
+~Flower Shop Report~
+Income: 108.67
+Count of orders: 5
+~~Unsold plants: 4~~
+Fern: 2
+Lily: 1
+Rose: 1
+~~Clients number: 5~~
+Client: Bob Smith, Phone number: 0987654321, Orders count: 2, Discount: 5%
+Client: Greenhouse Inc., Phone number: 5647382910, Orders count: 2, Discount: 10%
+Client: Alice Johnson, Phone number: 1234567890, Orders count: 1, Discount: 5%
+Client: Peter Johnson, Phone number: 382910, Orders count: 0, Discount: 0%
+Client: CoolGarden Plc., Phone number: 9647382910, Orders count: 0, Discount: 0%
+
+2 client/s removed.
+0 client/s removed.
+
+"""

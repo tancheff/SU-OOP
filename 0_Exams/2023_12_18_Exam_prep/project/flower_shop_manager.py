@@ -110,6 +110,3 @@ class FlowerShopManager:
         report.extend(sorted_clients)
 
         return "\n".join(report)
-
-
-
