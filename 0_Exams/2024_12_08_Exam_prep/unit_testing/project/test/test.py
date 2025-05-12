@@ -49,22 +49,34 @@ class TestSeniorStudent(TestCase):
         self.assertEqual('UNSS' in self.student.colleges, True)
 
     def test_apply_to_college_exception(self):
-        res = self.student.apply_to_college(3.5, 'aubg')
+        res = self.student.apply_to_college(3.51, 'aubg')
         self.assertEqual('Application failed!', res)
 
-        # self.assertEqual('AUBG' in self.student.colleges, False)
+        self.assertEqual('AUBG' in self.student.colleges, False)
 
+    def test_update_gpa_success(self):
+        res = self.student.update_gpa(3.3)
+        self.assertEqual('Student GPA was successfully updated.', res)
 
+        self.assertEqual(self.student.student_gpa, 3.3)
 
+    def test_update_gpa_exception(self):
+        res = self.student.update_gpa(0.5)
+        self.assertEqual('The GPA has not been changed!', res)
 
+        self.assertEqual(self.student.student_gpa, 3.5)
 
+    def test__eq__true(self):
+        student2 = SeniorStudent('55555', 'Name2', 4.0)
 
+        res = self.student.__eq__(student2)
+        self.assertEqual(res, False)
 
+    def test__eq__false(self):
+        student3 = SeniorStudent('1111', 'Name3', 3.5)
 
-
-
-
-
+        res = self.student.__eq__(student3)
+        self.assertEqual(res, True)
 
 
 if __name__ == '__main__':
